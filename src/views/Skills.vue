@@ -1,30 +1,25 @@
 <script setup>
-import { reactive } from 'vue';
+import { useSkillStore } from '../store/Skill'
 
-const item = reactive([
-  {
-    a:'好吃',
-    c:'不好吃',
-  },
-  {b:'大鼠'},
-])
+const skillStore = useSkillStore() 
+
 
 </script>
 
 <template>
-<h2>相關專業技能</h2>
-<!-- 這邊 v-for 渲染-從store拿資料 -->
-<div v-for="items in item">
-<ul>
-  <li>{{ items }}</li>
-</ul>
+  <h2 class="h2 py-10">相關專業技能</h2>
+  <div class="flex gap-10">
+      <div
+        v-for="(group, idx) in skillStore.skills"
+        :key="idx"
+        class="skill-card"    
+      >
+        <div class="skill-card-title">{{ group.category }}</div>
+        <ul class="skill-list">
+          <li v-for="(item, i) in group.items" :key="i">{{ item }}</li>
+        </ul>
+      </div>
 </div>
-
-
-
-<div>
-</div>
-
 </template>
 
 <style scoped>

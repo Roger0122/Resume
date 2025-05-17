@@ -21,7 +21,6 @@ import { RouterLink } from 'vue-router'
     </ul>
   </div>
 </div>
-
 </template>
 
 <style scoped>

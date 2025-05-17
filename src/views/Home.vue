@@ -53,7 +53,7 @@ onBeforeUnmount(() => {
     </div>
   </div>
 </div>
-
+<hr>
 <section id="skills">
   <Skill/>
 </section>
