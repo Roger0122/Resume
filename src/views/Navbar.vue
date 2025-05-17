@@ -11,7 +11,7 @@ import { RouterLink } from 'vue-router'
     <img class="rounded-full" src="../assets/My.png" alt="Roger">
   </div>
   <div class="flex pt-2">
-    <p>Roger</p>
+    <p class="h3">Roger</p>
   </div>
   <div class="flex pt-2">
     <ul class="flex flex-wrap gap-4 sm:gap-3 lg:gap-4">
@@ -21,8 +21,6 @@ import { RouterLink } from 'vue-router'
     </ul>
   </div>
 </div>
-
-
 
 </template>
 
