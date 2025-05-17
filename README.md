@@ -1,5 +1,12 @@
-# Vue 3 + Vite
+# Roger's Resume (Vue + Tailwind)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+這是我使用 Vue 3 + Tailwind CSS 製作的個人履歷網站，並部署於 GitHub Pages。
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 技術棧
+- Vue 3 + Composition API
+- Tailwind CSS
+- Vite 開發環境
+- GitHub Pages 部署
+
+## 預覽連結
+👉 [點我看履歷](https://roger0122.github.io/Resume/) 
