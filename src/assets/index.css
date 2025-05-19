@@ -41,8 +41,16 @@
   .skill-card-title {
     @apply bg-indigo-200 text-indigo-900 text-lg font-bold px-4 p-2 rounded-t-2xl hover:bg-indigo-300;
   }
-
  .skill-list {
     @apply list-disc list-inside text-gray-700 mt-1 space-y-1 px-4 py-4;
+  }
+  .ex-card {
+    @apply bg-white rounded-2xl shadow-md w-full max-w-md mx-auto hover:bg-indigo-100;
+  }
+  .ex-card-title{
+    @apply bg-indigo-200 text-indigo-900 text-lg font-bold px-4 p-2 rounded-t-2xl hover:bg-indigo-300 ;
+  }
+  .ex-list{
+    @apply list-disc list-inside text-gray-700 mt-1 space-y-1 px-4;
   }
 }
