@@ -14,16 +14,10 @@ const routes =[
     component: Projects
   },
   {
-    path: '/projects',
-    name: 'Projects',
-    component: Projects
-  },
-  {
     path: '/contact',
     name: 'Contact',
     component: Contact
   },
-
 ]
 
 export default routes
