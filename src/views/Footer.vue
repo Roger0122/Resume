@@ -1,6 +1,5 @@
 <script setup>
 
-
 </script>
 
 <template>
@@ -16,7 +15,7 @@
 <p>email:a86527913@gmail.com</p>
 <hr>
 
-<p>C-著作權 2025 Roger 黃俊龍 | All Rights Reserved.</p>
+<p>©-著作權 2025 Roger 黃俊龍 | All Rights Reserved.</p>
 
 
 </template>

@@ -2,8 +2,6 @@
 import { useSkillStore } from '../store/Skill'
 
 const skillStore = useSkillStore() 
-
-
 </script>
 
 <template>
