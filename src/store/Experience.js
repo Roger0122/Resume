@@ -38,7 +38,7 @@ export const useExperienceStore = defineStore('useExperience',() => {
       ]
     },
     {
-      category: '聯錸',
+      category: '聯錸科技股份有限公司',
       content:'前端工程師 2025年4月 - 現在',
       items: [
         'POS 系統後台維護',
