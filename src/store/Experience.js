@@ -8,7 +8,7 @@ export const useExperienceStore = defineStore('useExperience',() => {
       category: '開南大學',
       content:'學士學位・多媒體與行動商務學系2013年 - 2018年',
       items: [
-        '在學期間日文並且通過N3,',
+        '在學期間自學日文並且通過N3,',
         '金沢星稜大学-交換留学1年,留學期間於日本學習通過N2',
         '回台灣以後通過N1',
       ]
