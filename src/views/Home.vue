@@ -58,7 +58,7 @@ onBeforeUnmount(() => {
   <Skill/>
 </section>
 <Experience/>
-
+<hr>
 </template>
 
 <style scoped>

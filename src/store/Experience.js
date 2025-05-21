@@ -19,9 +19,9 @@ export const useExperienceStore = defineStore('useExperience',() => {
       items: [
         '協助台灣區電商代理運營負責系統操作,',
         '倉儲管理及物流確認處理配送投訴,',
-        '異常狀況客戶關係管理,',
-        '經營彙整分析營運資料，解決客戶問題,',
-        '日文書信對應',
+        '異常狀況回報,客戶關係管理,',
+        '經營彙整分析營運資料,解決客戶問題,',
+        '日本業主書信對應',
       ]
     },
     {
@@ -30,7 +30,7 @@ export const useExperienceStore = defineStore('useExperience',() => {
       items: [
         '網路概論',
         'HTML/CSS ,RWD 響應式網頁設計',
-        'JavaScript 前端開發 ,Vue 前端框架',
+        'JavaScript 前端開發, Vue 前端框架',
         'Express.js Node.js',
         'TDD 測試',
         'Git 版本控制',
