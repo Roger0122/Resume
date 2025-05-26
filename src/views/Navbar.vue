@@ -1,6 +1,24 @@
 <script setup>
 import { RouterLink } from 'vue-router'
+import { ref, onMounted, onUnmounted } from 'vue'
 
+const showButton = ref(false);
+
+function scrollToTop() {
+  window.scrollTo({top: 0,behavior: 'smooth',})
+}
+
+function handleScroll() {
+  showButton.value = window.scrollY > 200
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll',handleScroll)
+});
 
 </script>
 
@@ -21,6 +39,13 @@ import { RouterLink } from 'vue-router'
     </ul>
   </div>
 </div>
+
+<button
+v-if="showButton"
+class="to-top-button"
+ @click="scrollToTop"
+>⬆ TOP</button>
+
 </template>
 
 <style scoped>

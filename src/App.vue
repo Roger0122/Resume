@@ -26,7 +26,7 @@ const isSpecialPage = computed(() =>
   </main>
 
   <footer>
-    <Footer />
+  <Footer />
   </footer>
 </template>
 

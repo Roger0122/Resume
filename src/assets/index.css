@@ -68,4 +68,7 @@
   .btn-primary {
   @apply bg-indigo-600 text-white font-semibold py-2 px-4 rounded hover:bg-indigo-700 transition;
   }
+  .to-top-button {
+  @apply fixed bottom-5 right-5 bg-indigo-600 text-white px-4 py-2 rounded shadow
+  }
 }
