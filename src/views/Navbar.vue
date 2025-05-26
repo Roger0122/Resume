@@ -44,7 +44,7 @@ onUnmounted(() => {
 v-if="showButton"
 class="to-top-button"
  @click="scrollToTop"
->⬆ TOP</button>
+>TOP</button>
 
 </template>
 
