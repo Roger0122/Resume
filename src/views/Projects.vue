@@ -1,10 +1,12 @@
 <script setup>
 import joitogetherGif from '../assets/joitogether.gif'
+
 </script>
 
 <template>
-  <div class="pt-32  radius-10  rounded-3xl">
-    <h2 class="h2">團體作品:JoiTogether</h2>
+  <div class="py-20 radius-10 rounded-2xl shadow-sm bg-white p-6 hover:shadow-lg transition-all duration-300">
+    <h2 class="h2  text-lg font-semibold text-gray-800">團體作品:JoiTogether</h2>
+    <p class="text-sm text-gray-500 mt-2">「復刻揪團網站——以Eatgether為範例（台灣最大免費聚會交友APP），模擬其提供的活動與社群服務功能。」</p>
     <a 
       href="https://joitogether.com/home" 
       target="_blank" 

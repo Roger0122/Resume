@@ -13,7 +13,7 @@ const isSpecialPage = computed(() =>
 
 <template>
   <div class="bg-gray-50 text-gray-800">
-    <Navbar class="fixed top-0 left-0 w-full z-50 bg-white shadow" />
+    <Navbar/>
   </div>
 
   <main
